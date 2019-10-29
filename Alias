@@ -1,0 +1,8 @@
+alias ..='cd ..'
+alias desk='cd ~/Desktop'
+alias down='cd ~/Downloads'
+alias google='google-chrome --no-sandbox'
+alias ls='ls --color=auto'
+alias nord='nordvpn connect'
+alias mac='ifconfig wlan0 down; macchanger -r wlan0; ifconfig wlan0 up'
+alias update='apt-get update && apt-get dist-upgrade'
