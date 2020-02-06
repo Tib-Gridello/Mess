@@ -7,4 +7,7 @@ alias nord='myip;nordvpn connect;myip'
 alias mac='ifconfig wlan0 down; macchanger -r wlan0; ifconfig wlan0 up'
 alias update='apt-get update && apt-get dist-upgrade'
 alias myip='curl --fail --silent --show-error https://wtfismyip.com/json | cut -d":" -f2'
+alias notepad='xdg-open /root/Desktop/Notepad++.desktop'
+
+
 
