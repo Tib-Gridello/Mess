@@ -1,7 +1,7 @@
 alias ..='cd ..'
 alias desk='cd ~/Desktop'
 alias down='cd ~/Downloads'
-alias google='google-chrome-stable --no-sandbox --password-store=basic'
+alias google='google-chrome-stable --no-sandbox --password-store=basic -test-type'
 alias ls='ls --color=auto'
 alias nord='myip;nordvpn connect;myip'
 alias mac='ifconfig wlan0 down; macchanger -r wlan0; ifconfig wlan0 up'
