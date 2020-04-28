@@ -9,5 +9,7 @@ alias update='apt-get update && apt-get dist-upgrade'
 alias myip='curl --fail --silent --show-error https://wtfismyip.com/json | cut -d":" -f2'
 alias notepad='xdg-open /root/Desktop/Notepad++.desktop'
 
+# to have ctrl+backspace deleting the work
+stty werase ^?
 
 
