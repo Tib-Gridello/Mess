@@ -6,7 +6,7 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt-get update && sudo apt-get install -y spotify-client ./nordvpn-release_1.0.0_all.deb ./google-chrome-stable_current_amd64.deb  python3-pip
 rm nordvpn-release_1.0.0_all.deb google-chrome-stable_current_amd64.deb
 apt-get update
-mv --force ../.bashrc ..
+mv --force .bashrc ..
 apt-get -y install nordvpn golang-go
 cd /root
 go get github.com/haccer/subjack
