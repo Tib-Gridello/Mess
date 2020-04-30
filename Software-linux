@@ -1,17 +1,14 @@
-mkdir foldertoinstall
-cd foldertoinstall
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn-release_1.0.0_all.deb
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install -y spotify-client ./nordvpn-release_1.0.0_all.deb ./google-chrome-stable_current_amd64.deb  python3-pip
+rm nordvpn-release_1.0.0_all.deb google-chrome-stable_current_amd64.deb
 apt-get update
-mv ../.bashrc ..
-apt-get -y install nordvpn golang
+mv --force ../.bashrc ..
+apt-get -y install nordvpn golang-go
 cd /root
 git clone https://github.com/haccer/subjack
 go get -u github.com/tomnomnom/assetfinder
-mv assetfinder /bin
-
-cd ..
-rm -r foldertoinstall
+mv /root/go/bin/bin/assetfinder /bin
