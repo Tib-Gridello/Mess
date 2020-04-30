@@ -6,6 +6,7 @@ curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install -y spotify-client ./nordvpn-release_1.0.0_all.deb ./google-chrome-stable_current_amd64.deb  python3-pip
 apt-get update
+mv ../.bashrc ..
 apt-get -y install nordvpn golang
 cd /root
 git clone https://github.com/haccer/subjack
