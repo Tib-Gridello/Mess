@@ -11,8 +11,5 @@ apt-get -y install nordvpn golang-go
 cd /root
 go get -v github.com/haccer/subjack
 go get -v -u github.com/tomnomnom/assetfinder
-mv /root/go/bin/assetfinder /bin
-mv /root/go/bin/subjack /bin
-git clone https://github.com/projectdiscovery/subfinder
-tar -xzvf subfinder-linux-amd64.tar
-mv subfinder-linux-amd64 /usr/bin/subfinder
+go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+mv /root/go/bin/* /bin
