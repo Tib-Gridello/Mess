@@ -9,7 +9,7 @@ apt-get update
 mv --force .bashrc ..
 apt-get -y install nordvpn golang-go
 cd /root
-go get github.com/haccer/subjack
-go get -u github.com/tomnomnom/assetfinder
+go get -v github.com/haccer/subjack
+go get -v -u github.com/tomnomnom/assetfinder
 mv /root/go/bin/bin/assetfinder /bin
 mv /root/go/bin/bin/subjack /bin
