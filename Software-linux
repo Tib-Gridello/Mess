@@ -19,6 +19,7 @@ rm -r test
 go get -v github.com/haccer/subjack
 go get github.com/tomnomnom/waybackurls
 go get -u github.com/lc/gau
+go get github.com/OJ/gobuster
 go get -v -u github.com/tomnomnom/assetfinder
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 mv /root/go/bin/* /bin
