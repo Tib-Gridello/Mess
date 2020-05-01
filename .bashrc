@@ -129,5 +129,5 @@ subfinder -d $1 >> hosts |
  
 }
 paramlist() {
-waybackurl $1 | grep "?" | unfurl keys | sort -u | tee paramlist.txt
+waybackurls $1 | grep "?" | unfurl keys | sort -u | tee paramlist.txt
 }
