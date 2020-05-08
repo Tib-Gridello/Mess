@@ -26,3 +26,7 @@ go get -v -u github.com/tomnomnom/assetfinder
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 mv /root/go/bin/* /bin
 rm -r Mess
+mkdir ~/Desktop/Bug-bounty
+mv ~/Desktop/Bug-bounty/
+git clone https://github.com/danielmiessler/SecLists/
+git clone https://github.com/assetnote/
