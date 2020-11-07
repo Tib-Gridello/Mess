@@ -30,3 +30,10 @@ mkdir ~/Desktop/Bug-bounty
 mv ~/Desktop/Bug-bounty/
 git clone https://github.com/danielmiessler/SecLists/
 git clone https://github.com/assetnote/
+git clone https://github.com/kavishgr/tempomail
+go get github.com/fatih/color
+cd tempomail
+go build
+mv tempomail /usr/local/bin/ 
+
+
