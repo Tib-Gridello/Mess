@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ $(setxkbmap -query | grep layout) = *us* ]]; then
+  setxkbmap fr
+else
+  setxkbmap us
+fi
