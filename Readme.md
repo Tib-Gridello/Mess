@@ -1,3 +1,10 @@
+Script-changement-de-clavier : Script a ajouter dans /home. Ajouter 'sh ./script-changement-de-clavier.sh' dans les settings raccourci clavier (eg: Winkey+space)
+
+
+
+
+
+
 Git clone https://github.com/Tib-Gridello/Mess \
 cd Mess \
 chmod +x Software-linux \
